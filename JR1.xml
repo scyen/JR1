@@ -1,16 +1,23 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_reverse" id="11" x="1" y="55">
-    <next>
-      <block type="movement_left" id="1">
+  <block type="controls_repeat" id="123" inline="true" x="1" y="195">
+    <statement name="DO">
+      <block type="movement_reverse" id="11">
         <next>
-          <block type="movement_right" id="31">
+          <block type="movement_reverse" id="21">
             <next>
-              <block type="movement_right" id="100"></block>
+              <block type="movement_left" id="1">
+                <next>
+                  <block type="movement_right" id="31">
+                    <next>
+                      <block type="movement_right" id="100"></block>
+                    </next>
+                  </block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
       </block>
-    </next>
+    </statement>
   </block>
-  <block type="movement_reverse" id="21" x="1" y="55"></block>
 </xml>
