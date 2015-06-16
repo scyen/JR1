@@ -1,24 +1,3 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="1" x="3" y="15">
-    <field name="TEXT">Hello my name is Sarah Angela</field>
-    <next>
-      <block type="movement_forward" id="2">
-        <next>
-          <block type="movement_forward" id="3">
-            <next>
-              <block type="movement_stop" id="4">
-                <next>
-                  <block type="movement_right" id="5">
-                    <next>
-                      <block type="movement_stutter" id="6"></block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
+  <block type="movement_left" id="10" x="1" y="109"></block>
 </xml>
