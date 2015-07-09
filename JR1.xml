@@ -1,20 +1,20 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="123" inline="true" x="1" y="195">
+  <block type="controls_repeat" id="1" inline="true" x="1" y="195">
     <value name="TIMES">
-      <block type="math_number" id="133">
+      <block type="math_number" id="2">
         <field name="NUM">6</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_reverse" id="11">
+      <block type="movement_reverse" id="3">
         <next>
-          <block type="movement_reverse" id="21">
+          <block type="movement_reverse" id="4">
             <next>
-              <block type="movement_left" id="1">
+              <block type="movement_left" id="5">
                 <next>
-                  <block type="movement_right" id="31">
+                  <block type="movement_right" id="6">
                     <next>
-                      <block type="movement_right" id="100"></block>
+                      <block type="movement_right" id="7"></block>
                     </next>
                   </block>
                 </next>
@@ -25,7 +25,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="143"></block>
+      <block type="movement_stop" id="8"></block>
     </next>
   </block>
 </xml>
